@@ -1,16 +1,16 @@
 ---
 layout: about
 permalink: /
-title: <strong>Your</strong> Name
+title: <strong>Luke</strong> Schmidt
 description: <a href="">Affiliations</a>. Address. Contacts. Moto. Etc.
 
 profile:
   align: right
   image: prof_pic.jpg
   address: >
-    <p>555 your office number</p>
+    <p>208</p>
     <p>123 your address street</p>
-    <p>Your City, State 12345</p>
+    <p>College Station, TX 77845</p>
 
 news: true
 social: true
