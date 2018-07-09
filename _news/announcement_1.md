@@ -1,7 +1,7 @@
 ---
 layout: post
-date: 2015-10-22 15:59:00-0400
+date: 2017-05-18 08:24:00-0400
 inline: true
 ---
 
-A simple inline announcement.
+NSF proposal "Calibrating Astronomical Instruments to Improve the Science Gained from the Large Synoptic Survey Telescope" awarded (CoPI) 

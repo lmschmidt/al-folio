@@ -1,55 +1,41 @@
 ---
 layout: page
-title: Project 5
-description: a project with a background image
-img: /assets/img/1.jpg
+title: NESSI
+description: Near-IR Spectrometer
+img: /assets/img/NESSI_On_Scope.jpg
 ---
 
-Every project has a beautiful feature shocase page. It's easy to include images, in a flexible 3-column grid format. Make your photos 1/3, 2/3, or full width.
-
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
-
-    ---
-    layout: page
-    title: Project
-    description: a project with a background image
-    img: /assets/img/12.jpg
-    ---
-
+NESSI is the [New Mexico Exoplanet Spectroscopic Survey Instrument](http://kestrel.nmt.edu/~mce/nessi.html).
+Originally built at New Mexico Tech for the Magdalena Ridge Observatory 2.4m telescope, NESSI is now undergoing commissioning on the Hale telescope after being converted from a Nasmyth mounted to prime focus mounted instrument. 
 
 <div class="img_row">
-    <img class="col one left" src="{{ site.baseurl }}/assets/img/1.jpg" alt="" title="example image"/>
-    <img class="col one left" src="{{ site.baseurl }}/assets/img/2.jpg" alt="" title="example image"/>
-    <img class="col one left" src="{{ site.baseurl }}/assets/img/3.jpg" alt="" title="example image"/>
+    <img class="col one left" src="{{ site.baseurl }}/assets/img/nessi-lab.jpg" alt="" title="NESSI in the lab"/>
+    <img class="col one left" src="{{ site.baseurl }}/assets/img/NESSI_On_Scope.jpg" alt="" title="NESSI at the 2.4m"/>
+    <img class="col one left" src="{{ site.baseurl }}/assets/img/nessi-hale.jpg" alt="" title="NESSI at the Hale"/>
 </div>
 <div class="col three caption">
-    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
+    On the left, NESSI is integrated in the lab at New Mexico Tech. Middle, NESSI mounted to the MRO 2.4m telescope. Right, being moved into the dome at the Hale Telescope.
 </div>
+
+I supervised a group of undergraduate students responsible for writing the instrument control and telescope interface software. I was also responsible for the optical alignment, detector electronics integration (Teledyne HAWAII-H2RG), vacuum and cryogenic systems characterization, and many other tasks required to bring a new instrument to first light.
+
+
 <div class="img_row">
-    <img class="col three left" src="{{ site.baseurl }}/assets/img/5.jpg" alt="" title="example image"/>
+    <img class="col one left" src="{{ site.baseurl }}/assets/img/nessi-dichroic.jpg" alt="" title="dichoric"/>
+    <img class="col one left" src="{{ site.baseurl }}/assets/img/nessi-install-camera-optics.jpg" alt="" title="installing optics"/>
+    <img class="col one left" src="{{ site.baseurl }}/assets/img/nessi-derotator.jpg" alt="" title="Derotator"/>
 </div>
 <div class="col three caption">
-    This image can also have a caption. It's like magic.
+    Left, looking back through the dichroic from the guide camera. Middle, installation of the collimator and camera optics onto the cold plate. Right, the K-Mirror derotator that was a part of the instrument before moving to the Hale Telescope.
 </div>
 
-You can also put regular text between your rows of images. Say you wanted to write a little bit about your project before you posted the rest of the images. You describe how you toiled, sweated, *bled* for your project, and then.... you reveal it's glory in the next row of images.
+| Capability | Description | Wavelengths | Notes |
+| ---------- | ----------- | ----------- | ----- |
+| Multi-object Masks  | 6.5' FOV, 0.23" pixels | 1.0-2.4 μm | 7 cold masks + open |
+| Low-Resolution Spectra | R~200 | 1.0-2.4 μm (J, H & K) | Teledyne H2RG science detector |
+| Moderate-Resolution Spectra | R~1100 | 1.0-2.4 μm (J, H or K) | Teledyne H2RG science detector |
+| Narrow-line Imaging | Full-Field (6.5' FOV) imaging | 13 filters | 7 filter slots in one wheel, 3 in other |
 
-
-<div class="img_row">
-    <img class="col two left" src="{{ site.baseurl }}/assets/img/6.jpg" alt="" title="example image"/>
-    <img class="col one left" src="{{ site.baseurl }}/assets/img/11.jpg" alt="" title="example image"/>
-</div>
 <div class="col three caption">
-    You can also have artistically styled 2/3 + 1/3 images, like these.
-</div>
-
-
-<br/><br/>
-
-
-The code is simple. Just add a col class to your image, and another class specifying the width: one, two, or three columns wide. Here's the code for the last row of images above:
-
-<div class="img_row">
-    <img class="col two left" src="/img/6.jpg"/>
-    <img class="col one left" src="/img/11.jpg"/>
+    NESSI capabilities and specifications.
 </div>

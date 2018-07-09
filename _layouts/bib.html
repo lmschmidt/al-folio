@@ -45,10 +45,23 @@
     {% if entry.type == "article" %}
       <em>{{entry.journal}}</em>
     {% elsif entry.type == "inproceedings" %}
-      <em>In {{entry.booktitle}}</em>
+      {% if entry.journal %}
+        <em>In {{entry.journal}},</em>
+      {% else %}
+        <em>In {{entry.booktitle}}</em>
+      {% endif %}
+    {% endif %}
+    {% if entry.volume %}
+      {{entry.volume}} -
+    {% endif %}
+    {% if entry.number %}
+      {{entry.number}},
+    {% endif %}
+    {% if entry.pages %}
+      {{entry.pages}}
     {% endif %}
     {% if entry.year %}
-      {{entry.year}}
+      {{entry.year}}.
     {% endif %}
     </span>
   {% endif %}

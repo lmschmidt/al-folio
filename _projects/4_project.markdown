@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Project 4
-description: another without an image
+title: MROI
+description: Optical/IR Interferometer
 img:
 ---
 

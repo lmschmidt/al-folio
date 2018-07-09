@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Project 3
-description: a project that redirects to another website
+title: Black &amp; White Materials
+description: reflectivity characterization
 img:
 redirect: https://unsplash.com
 ---

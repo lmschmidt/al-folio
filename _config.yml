@@ -3,16 +3,15 @@
 # -----------------------------------------------------------------------------
 name: Luke Schmidt
 email: lschmidt@physics.tamu.edu
+phone: 979-845-4401
 description: > # this means to ignore newlines until "url:"
   A simple, whitespace theme for academics. Based on [*folio](https://github.com/bogoli/-folio) design.
 footer_text: >
   Powered by <a href="http://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
-  Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
-  Photos from <a href="https://unsplash.com" target="_blank">Unsplash</a>.
 
 url:  # the base hostname & protocol for your site
 baseurl: # the subpath of your site, e.g. /blog/
-last_updated: 2018-06-24 # leave blank if you don't want to display last updated
+last_updated: 2018-07-07 # leave blank if you don't want to display last updated
 
 # -----------------------------------------------------------------------------
 # Social integration
@@ -21,17 +20,17 @@ github_username: lmschmidt # your GitHub user name
 twitter_username: # your Twitter handle
 linkedin_username: # your LinkedIn user name
 scholar_userid: # your Google Scholar ID
-orcid_id: # your ORCID ID
+orcid_id: 0000-0001-9009-1126 # your ORCID ID
 contact_note: >
-  You can even add a little note about which of these is the best way to reach you.
+  email preferred.
 
 google_analytics: UA-XXXXXXXXX # out your google-analytics code
 
 # -----------------------------------------------------------------------------
 # Blog
 # -----------------------------------------------------------------------------
-blog_name: al-folio
-blog_description: a simple whitespace theme for academics
+blog_name: astroblog
+blog_description: a place for everything else
 
 # Pagination
 paginate: 4
@@ -90,7 +89,7 @@ scholar:
 
   last_name: Schmidt
 
-  style: apa
+  style: annual-review-of-astronomy-and-astrophysics
   locale: en
 
   sort_by: year
